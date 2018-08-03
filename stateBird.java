@@ -147,9 +147,7 @@ public class stateBird {
 			}
 		}
 	input.close();
-	}
-	
-	
+
 	private static void printHelpInfo(){
 		System.out.println("\nstateBird [-s] STATENAME [--bat=token] | --help | --synopsis");
 		System.out.println("\n'stateBird' returns the State bird of a user given State. Can print only valid States. ");
